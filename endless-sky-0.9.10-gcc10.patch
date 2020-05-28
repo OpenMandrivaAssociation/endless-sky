@@ -1,0 +1,11 @@
+diff -Nrup a/source/Panel.h b/source/Panel.h
+--- a/source/Panel.h	2017-08-12 15:37:19.000000000 -0600
++++ b/source/Panel.h	2019-09-23 18:00:51.415560466 -0600
+@@ -17,6 +17,7 @@ PARTICULAR PURPOSE.  See the GNU General
+ 
+ #include <functional>
+ #include <list>
++#include <string>
+ 
+ #include <SDL2/SDL.h>
+ 

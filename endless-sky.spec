@@ -1,7 +1,7 @@
 %define hidpi   %{name}-high-dpi
 
 Name:           endless-sky
-Version:        0.9.12
+Version:        0.9.14
 Release:        1
 Summary:        A space exploration and combat game similar to Escape Velocity
 Group:          Games/Simulation
@@ -10,8 +10,6 @@ URL:            http://endless-sky.github.io
 
 Source0:        https://github.com/endless-sky/endless-sky/archive/v%{version}/%{name}-%{version}.tar.gz
 Source1:        https://github.com/endless-sky/endless-sky-high-dpi/archive/v%{version}/%{hidpi}-%{version}.tar.gz
-
-Patch0:         endless-sky-0.9.10-gcc10.patch
 
 BuildRequires:  pkgconfig(libjpeg)
 BuildRequires:  pkgconfig(gl)

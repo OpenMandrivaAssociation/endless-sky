@@ -11,7 +11,7 @@ URL:            http://endless-sky.github.io
 Source0:        https://github.com/endless-sky/endless-sky/archive/v%{version}/%{name}-%{version}.tar.gz
 Source1:        https://github.com/endless-sky/endless-sky-high-dpi/archive/v%{version}/%{hidpi}-%{version}.tar.gz
 
-Patch0:         endless-sky-0.9.10-gcc10.patch
+#Patch0:         endless-sky-0.9.10-gcc10.patch
 
 BuildRequires:  pkgconfig(libjpeg)
 BuildRequires:  pkgconfig(gl)

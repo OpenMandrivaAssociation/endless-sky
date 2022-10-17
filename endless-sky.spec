@@ -1,7 +1,7 @@
 %define hidpi   %{name}-high-dpi
 
 Name:           endless-sky
-Version:        0.9.14
+Version:        0.9.16
 Release:        1
 Summary:        A space exploration and combat game similar to Escape Velocity
 Group:          Games/Simulation
@@ -18,6 +18,7 @@ BuildRequires:  pkgconfig(libpng)
 BuildRequires:  pkgconfig(mad)
 BuildRequires:  pkgconfig(openal)
 BuildRequires:  pkgconfig(sdl2)
+BuildRequires:  pkgconfig(uuid)
 BuildRequires:  scons
 
 Requires:       %{name}-data >= %{version}-%{release}
@@ -36,7 +37,7 @@ package that contains high-resolution graphics for this game.
 %files
 %doc copyright credits.txt README.md
 %{_gamesbindir}/%{name}
-%{_datadir}/appdata/%{name}.appdata.xml
+%{_datadir}/metainfo/io.github.endless_sky.endless_sky.appdata.xml
 %{_datadir}/applications/%{name}.desktop
 %{_iconsdir}/hicolor/*/apps/%{name}.png
 %{_mandir}/man6/%{name}.6*

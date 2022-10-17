@@ -37,7 +37,7 @@ package that contains high-resolution graphics for this game.
 %files
 %doc copyright credits.txt README.md
 %{_gamesbindir}/%{name}
-%{_datadir}/appdata/%{name}.appdata.xml
+#{_datadir}/appdata/%{name}.appdata.xml
 %{_datadir}/applications/%{name}.desktop
 %{_iconsdir}/hicolor/*/apps/%{name}.png
 %{_mandir}/man6/%{name}.6*

@@ -1,4 +1,5 @@
 %define hidpi   %{name}-high-dpi
+%define oversion 0.9.16
 
 Name:           endless-sky
 Version:        0.9.16.1
@@ -9,7 +10,7 @@ License:        GPLv3+ and CC-BY-SA 3.0 and CC-BY-SA 4.0 and CC-BY 4.0 and Publi
 URL:            http://endless-sky.github.io
 
 Source0:        https://github.com/endless-sky/endless-sky/archive/v%{version}/%{name}-%{version}.tar.gz
-Source1:        https://github.com/endless-sky/endless-sky-high-dpi/archive/v%{version}/%{hidpi}-0.9.16.tar.gz
+Source1:        https://github.com/endless-sky/endless-sky-high-dpi/archive/v%{version}/%{hidpi}-%{oversion}.tar.gz
 
 BuildRequires:  pkgconfig(libjpeg)
 BuildRequires:  pkgconfig(gl)
@@ -89,4 +90,4 @@ this package is fully optional. These sprites will only be used if:
 %scons_install PREFIX=%{_prefix}
 
 install -d %{buildroot}%{_gamesdatadir}/%{name}/plugins
-mv %{hidpi}-%{version} %{buildroot}%{_gamesdatadir}/%{name}/plugins/%{hidpi}
+mv %{hidpi}-%{oversion} %{buildroot}%{_gamesdatadir}/%{name}/plugins/%{hidpi}

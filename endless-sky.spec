@@ -3,7 +3,7 @@
 
 Name:           endless-sky
 Version:        0.9.16.1
-Release:        1
+Release:        2
 Summary:        A space exploration and combat game similar to Escape Velocity
 Group:          Games/Simulation
 License:        GPLv3+ and CC-BY-SA 3.0 and CC-BY-SA 4.0 and CC-BY 4.0 and Public Domain

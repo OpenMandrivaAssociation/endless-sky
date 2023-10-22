@@ -2,7 +2,7 @@
 %define oversion 0.10.3
 
 Name:           endless-sky
-Version:        0.10.3
+Version:        0.10.4
 Release:        1
 Summary:        A space exploration and combat game similar to Escape Velocity
 Group:          Games/Simulation

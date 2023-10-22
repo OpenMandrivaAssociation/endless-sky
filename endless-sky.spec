@@ -1,5 +1,5 @@
 %define hidpi   %{name}-high-dpi
-%define oversion 0.10.3
+%define oversion 0.10.4
 
 Name:           endless-sky
 Version:        0.10.4

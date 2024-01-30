@@ -1,8 +1,8 @@
 %define hidpi   %{name}-high-dpi
-%define oversion 0.10.4
+%define oversion 0.10.5
 
 Name:           endless-sky
-Version:        0.10.4
+Version:        0.10.5
 Release:        1
 Summary:        A space exploration and combat game similar to Escape Velocity
 Group:          Games/Simulation

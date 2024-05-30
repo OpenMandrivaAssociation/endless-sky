@@ -1,13 +1,13 @@
 %define hidpi   %{name}-high-dpi
-%define oversion 0.10.6
+%define oversion 0.10.7
 
 Name:           endless-sky
-Version:        0.10.6
+Version:        0.10.7
 Release:        1
 Summary:        A space exploration and combat game similar to Escape Velocity
 Group:          Games/Simulation
 License:        GPLv3+ and CC-BY-SA 3.0 and CC-BY-SA 4.0 and CC-BY 4.0 and Public Domain
-URL:            http://endless-sky.github.io
+URL:            https://endless-sky.github.io
 
 Source0:        https://github.com/endless-sky/endless-sky/archive/v%{version}/%{name}-%{version}.tar.gz
 Source1:        https://github.com/endless-sky/endless-sky-high-dpi/archive/v%{version}/%{hidpi}-%{oversion}.tar.gz

@@ -13,6 +13,7 @@ Source0:        https://github.com/endless-sky/endless-sky/archive/v%{version}/%
 Source1:        https://github.com/endless-sky/endless-sky-high-dpi/archive/v%{version}/%{hidpi}-%{oversion}.tar.gz
 
 BuildRequires:  pkgconfig(minizip)
+BuildRequires:  pkgconfig(catch2)
 BuildRequires:  pkgconfig(libjpeg)
 BuildRequires:  pkgconfig(gl)
 BuildRequires:  pkgconfig(glew)

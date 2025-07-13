@@ -20,7 +20,7 @@ BuildRequires:  pkgconfig(mad)
 BuildRequires:  pkgconfig(openal)
 BuildRequires:  pkgconfig(sdl2)
 BuildRequires:  pkgconfig(uuid)
-BuildRequires:  scons
+BuildRequires:  cmake
 
 Requires:       %{name}-data >= %{version}-%{release}
 
@@ -83,11 +83,12 @@ this package is fully optional. These sprites will only be used if:
 
 %build
 %set_build_flags
-%scons
+%cmake
+%make_install
 
 %install
 %set_build_flags
-%scons_install PREFIX=%{_prefix}
+%make_install -C build
 
 install -d %{buildroot}%{_gamesdatadir}/%{name}/plugins
 mv %{hidpi}-%{oversion} %{buildroot}%{_gamesdatadir}/%{name}/plugins/%{hidpi}

@@ -1,3 +1,4 @@
+%undefine _debugsource_packages
 %define hidpi   %{name}-high-dpi
 %define oversion 0.10.14
 

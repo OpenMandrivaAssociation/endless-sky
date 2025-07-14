@@ -39,7 +39,7 @@ package that contains high-resolution graphics for this game.
 
 %files
 %doc copyright credits.txt README.md
-%{_gamesbindir}/%{name}
+#{_gamesbindir}/%{name}
 %{_datadir}/metainfo/io.github.endless_sky.endless_sky.appdata.xml
 %{_datadir}/applications/io.github.endless_sky.endless_sky.desktop
 %{_iconsdir}/hicolor/*/apps/%{name}.png
